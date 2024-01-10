@@ -1,0 +1,54 @@
+* {
+    font-family: 'DM Serif Display', serif;
+    font-family: 'Podkova', serif;
+    font-family: 'Tilt Warp', sans-serif;
+}
+
+body {
+    background-color: #b0e0e6;
+    margin: 0;
+    font-size: 16px;
+}
+
+table {
+    width: 80%;
+    margin: auto;
+    background-color: #fff;
+    font-size: 18px;
+    border-collapse: separate;
+}
+
+th, td {
+    border: 1px dashed black;
+    padding: 15px;
+    text-align: left;
+}
+
+header {
+    font-size: large;
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+article {
+    text-align: center;
+    padding: 20px;
+}
+
+
+.amber {
+    background-color: #ffc107;
+    color: #333;
+}
+
+.green {
+    background-color: #4caf50;
+    color: #fff;
+}
+
+.red {
+    background-color: #e53935;
+    color: #fff;
+}
