@@ -1,54 +1,86 @@
+
 * {
+    padding: 0;
+    margin: 0;
     font-family: 'DM Serif Display', serif;
-    font-family: 'Podkova', serif;
-    font-family: 'Tilt Warp', sans-serif;
 }
+
 
 body {
-    background-color: #b0e0e6;
-    margin: 0;
-    font-size: 16px;
-}
-
-table {
-    width: 80%;
-    margin: auto;
-    background-color: #fff;
-    font-size: 18px;
-    border-collapse: separate;
-}
-
-th, td {
-    border: 1px dashed black;
-    padding: 15px;
-    text-align: left;
-}
-
-header {
-    font-size: large;
-    text-align: center;
-    padding: 20px;
-    background-color: #333;
-    color: #fff;
-}
-
-article {
-    text-align: center;
+    background-color: #F4E8C1;
     padding: 20px;
 }
 
+.navbar {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 20px 50px;
+    background-color: #577399;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+}
 
-.amber {
-    background-color: #ffc107;
+.navbar_navi li {
+    display: inline-flex;
+    justify-content: space-around;
+    padding: 0px 50px;
+}
+
+.navbar_navi li a {
+    color: #4F000B
+}
+
+.introduction {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.introduction h1 {
     color: #333;
+    margin-bottom: 10px;
 }
 
-.green {
-    background-color: #4caf50;
-    color: #fff;
+.introduction h2 {
+    color: #666;
+    margin-bottom: 20px;
 }
 
-.red {
-    background-color: #e53935;
-    color: #fff;
+.introduction h6 {
+    color: #999;
+}
+
+
+footer {
+    padding: 20px;
+    background-color: #577399;
+    margin-top: 30px;
+}
+
+.projects h1,
+.projects h3 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.projects p {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.github a {
+    color: #577399;
+}
+
+.Contact .contact.button {
+    display: inline-flex;
+    padding: 10px 20px;
+    background-color: #577399;
+    color: #4F000B;
+    border-radius: 5px;
+    margin-left: 45%;
+}
+
+.GitHub {
+    padding: 10px;
 }
